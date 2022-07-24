@@ -1,4 +1,4 @@
-## Netflix Clone - Desafio Bootcamp DIO | Carrefour Web Developer
+## React Web Page | Página para Academia
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white)
 ![Badge](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
@@ -8,13 +8,6 @@
 
 Este projeto consiste em recriar a estrutura do frontend do site da Netflix. Os objetivos desta atividade visam por em prática os conceitos estudados de Html,
 CSS e JavaScript. 
-
-### Deploy Heroku
-
-https://netflix-template-heroku.herokuapp.com/
-
-user: root
-senha: root
 
 ### Ferramentas utilizadas
 
