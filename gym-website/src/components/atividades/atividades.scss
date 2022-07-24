@@ -26,13 +26,25 @@
                 opacity: 1;
                 transition: .2s;
             }
-            h3 {
+
+            .container-dark {
+                width: 33%;
+                height: 17%;
+                margin-top: -17vh; 
+                border-left: 1px solid rgb(11, 142, 194);
+                background-color: rgba(0, 0, 0, 0.589);
                 position: absolute;
-                margin-top: -15vh; margin-left: 5vh;
-                font-size: 3vw;
-                font-weight: bold;
-                color: white;
+
+
+                h3 {
+                    position: absolute;
+                    margin-top: 3vh; margin-left: 5vh;
+                    font-size: 2vw;
+                    color: white;
+                }
+
             }
+           
         }
 
     }
