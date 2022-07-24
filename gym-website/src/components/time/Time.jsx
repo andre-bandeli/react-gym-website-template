@@ -6,6 +6,7 @@ export default function Time() {
     <div id='time'>
         <div className="container">
           <h2>SOMOS UMA REDE DE ACADEMIAS COM <span className='txt-decoration'>+ DE 10 ANOS</span> DE ATUAÇÃO</h2>
+          <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere accusamus veritatis repudiandae rerum fuga, aperiam mollitia illo provident aliquam, reprehenderit porro enim sed magnam nobis dolore molestias. Rerum, tempore unde.</h3>
         </div>
         <div className="container">
             <div className="box">

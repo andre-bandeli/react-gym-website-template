@@ -58,6 +58,10 @@
                     cursor: pointer;
                     color: white;
                 }
+                .activate {
+                    color: orangered;
+                    font-weight: bold;
+                }
                 .nav-item:hover {
                     color: orangered;
                     transition: .2s;

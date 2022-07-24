@@ -6,9 +6,11 @@ import BotaoDown from './components/botao-down/BotaoDown';
 import Contato from './components/contato/Contato';
 import Folder from './components/folder/Folder';
 import Footer from './components/footer/Footer';
+import Icones from './components/icones/Icones';
 import Navbar from './components/navbar/Navbar';
 import Planos from './components/planos/Planos';
 import Slider from './components/slider/Slider';
+import Testimunials from './components/testemonials/Testimunials';
 import Time from './components/time/Time';
 
 function App() {
@@ -16,6 +18,7 @@ function App() {
     <div className="App">
       <Navbar/>
       <Slider/>
+      <Icones/>
       <BotaoDown/>
       <Atividades/>
       <Folder/>
@@ -25,6 +28,7 @@ function App() {
       <BotaoDown/>
       <Time/>
       <Contato/>
+      <Testimunials/>
       <Footer/>
     </div>
   );

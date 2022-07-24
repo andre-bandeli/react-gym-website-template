@@ -14,7 +14,7 @@ export default function Navbar() {
             <div className="col-6 navlinks">
                 <div className="col-6">
                     <ul className='nav'>
-                        <li className='nav-item'>
+                        <li className='nav-item activate'>
                             <h2>HOME</h2>
                         </li>
                         <li className='nav-item'>
