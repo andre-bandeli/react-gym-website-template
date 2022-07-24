@@ -4,4 +4,124 @@
     height: 90vh;
     width: 100%;
     background-color: black;
+
+    .container {
+        height: 100%;
+        background-color: white;
+        display: flex;
+
+        .col-6 {
+            height: 100%;
+            width: 50%;
+            border: 1px solid white;
+            background-color: blue;
+
+            .container-md {
+                width: 40vh;
+                height: 10vh;
+                margin-top: 15%; margin-left: 25%;
+                background-color: black;
+                position: absolute;
+            }
+            .container-md-2 {
+                width: 40vh;
+                height: 10vh;
+                margin-top: 25%; margin-left: 25%;
+                background-color: black;
+                position: absolute;
+            }
+            .container-md-3 {
+                width: 40vh;
+                height: 10vh;
+                margin-top: 35%; margin-left: 25%;
+                background-color: black;
+                position: absolute;
+            }
+            @media (max-width: 2560px) {
+                .container-md {
+                    width: 40vh;
+                    height: 10vh;
+                    margin-top: 30vh; margin-left: 5%;
+                }
+                .container-md-2 {
+                    width: 40vh;
+                    height: 10vh;
+                    margin-top: 45vh; margin-left: 5%;
+                }
+                .container-md-3 {
+                    width: 40vh;
+                    height: 10vh;
+                    margin-top: 60vh; margin-left: 5%;
+                }
+            }
+            @media (max-width: 1440px) {
+                .container-md {
+                    width: 40vh;
+                    height: 10vh;
+                    margin-top: 30vh; margin-left: 15%;
+                }
+                .container-md-2 {
+                    width: 40vh;
+                    height: 10vh;
+                    margin-top: 45vh; margin-left: 15%;
+                }
+                .container-md-3 {
+                    width: 40vh;
+                    height: 10vh;
+                    margin-top: 60vh; margin-left: 15%;
+                }
+            }
+            @media (max-width: 1024px) {
+                .container-md {
+                    width: 40vh;
+                    height: 10vh;
+                    margin-top: 30vh; margin-left: 5%;
+                }
+                .container-md-2 {
+                    width: 40vh;
+                    height: 10vh;
+                    margin-top: 45vh; margin-left: 5%;
+                }
+                .container-md-3 {
+                    width: 40vh;
+                    height: 10vh;
+                    margin-top: 60vh; margin-left: 5%;
+                }
+            }
+            @media (max-width: 768px) {
+                .container-md {
+                    width: 35vh;
+                    height: 10vh;
+                    margin-top: 30vh; margin-left: 5%;
+                }
+                .container-md-2 {
+                    width: 35vh;
+                    height: 10vh;
+                    margin-top: 45vh; margin-left: 5%;
+                }
+                .container-md-3 {
+                    width: 35vh;
+                    height: 10vh;
+                    margin-top: 60vh; margin-left: 5%;
+                }
+            }
+            @media (max-width: 550px) {
+                .container-md {
+                    width: 20vh;
+                    height: 10vh;
+                    margin-top: 30vh; margin-left: 0%;
+                }
+                .container-md-2 {
+                    width: 20vh;
+                    height: 10vh;
+                    margin-top: 45vh; margin-left: 0%;
+                }
+                .container-md-3 {
+                    width: 20vh;
+                    height: 10vh;
+                    margin-top: 60vh; margin-left: 0%;
+                }
+            }
+        }
+    }
 }
