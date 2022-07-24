@@ -6,8 +6,7 @@
 ![Badge](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 
 
-Este projeto consiste em recriar a estrutura do frontend do site da Netflix. Os objetivos desta atividade visam por em prática os conceitos estudados de Html,
-CSS e JavaScript. 
+Desenvolvimento de um website para acadêmia utilizando react js, python/django, javascrip, html e css/scss. Consumo de api (google maps) e deploy no heroku.
 
 ### Ferramentas utilizadas
 
