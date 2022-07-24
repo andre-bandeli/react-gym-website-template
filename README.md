@@ -12,6 +12,7 @@ CSS e JavaScript.
 ### Ferramentas utilizadas
 
 - Django
+- React JS
 - Python
 - JavaScript
 - css
