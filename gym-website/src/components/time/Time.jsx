@@ -11,7 +11,7 @@ export default function Time() {
         <div className="container">
             <div className="box">
               <img src="assets/imagens/icon.png" alt="" />
-              <h2>+ 3000</h2>
+              <h2>+ 1500</h2>
               <h3>ALUNOS</h3>
             </div>
             <div className="box">
@@ -24,7 +24,9 @@ export default function Time() {
               <h2>+ 1500</h2>
               <h3>FUNCIONÁRIOS</h3>
             </div>
+            <script src="./contador.js"></script>
         </div>
+        
     </div>
   )
 }
