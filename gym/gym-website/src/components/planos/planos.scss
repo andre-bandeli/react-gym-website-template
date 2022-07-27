@@ -70,6 +70,41 @@
     }
 }
 
+@media (max-width: 768px) {
+    #planos {
+      
+        .container {
+    
+            .box {
+                width: 32%;
+            .text {
+
+                h2 {
+                  font-size: 3vw;
+                  padding-top: 4vh;
+                }
+            }
+            .subtext {
+
+
+                h3 {
+                  font-size: 2vw;
+                }
+                h4 {
+                    margin-left: 8.5vh;
+                    font-size: 1.5vw;
+                }
+
+                .txt-decoration-price {
+                    font-size: 4.5vw;
+                   
+                }
+            }
+            }
+        }
+    }
+}
+
 @media (max-width: 550px) {
     #planos {
         width: 100%;

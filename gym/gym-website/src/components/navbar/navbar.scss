@@ -70,22 +70,30 @@
             }
 
             .nav-responsiva {
-                width: 20%;
+                width: 0%;
+                height: 0%;
                 margin-top: -3vh;
                 visibility: hidden;
                 margin-left: 70%;
 
                 .drop {
-                    width: 1%;
+                    width: 0%;
+                    height: 0%;
                     background-color: black;
 
+                    img {
+                        height: 0vh;
+                    }
+
                     .menu {
-                        width: 1%;
+                        width: 0%;
+                        height: 0%;
                         background-color: black;
                         visibility: hidden;
 
                         .item {
                             visibility: hidden;
+                            height: 0%;
                         }
                     }
 

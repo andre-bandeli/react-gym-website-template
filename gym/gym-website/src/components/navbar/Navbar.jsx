@@ -31,6 +31,9 @@ export default function Navbar() {
                         <li className='nav-item'>
                             <h2>CONTATO</h2>
                         </li>
+                        <li className='nav-item'>
+                            <h2>DEPOIMENTOS</h2>
+                        </li>
                     </ul>
 
                         <ul className='nav-responsiva'>
