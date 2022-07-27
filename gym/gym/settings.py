@@ -30,6 +30,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
+    'gym-website',
 ]
 
 MIDDLEWARE = [
@@ -113,4 +114,8 @@ USE_TZ = True
 STATIC_URL = 'static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'gym-website/build/static'),
+]
+STATIC_ROOT =  os.path.join(BASE_DIR, 'staticfiles')  
+CORS_ALLOWED_ORIGINS = [
+    'http://localhost:3000'
 ]

@@ -1,6 +1,11 @@
 import React from 'react'
 import './time.scss'
 
+import icon from '../assets/imagens/icon.png'
+import map from '../assets/imagens/map.png'
+import grupo from '../assets/imagens/grupo.png'
+
+
 export default function Time() {
   return (
     <div id='time'>
@@ -10,21 +15,20 @@ export default function Time() {
         </div>
         <div className="container">
             <div className="box">
-              <img src="assets/imagens/icon.png" alt="" />
+              <img src={icon} alt="" />
               <h2>+ 1500</h2>
               <h3>ALUNOS</h3>
             </div>
             <div className="box">
-              <img src="assets/imagens/map.png" alt="" />
+              <img src={map} alt="" />
               <h2>+ 30</h2>
               <h3>CIDADES</h3>
             </div>
             <div className="box">
-              <img src="assets/imagens/grupo.png" alt="" />
+              <img src={grupo} alt="" />
               <h2>+ 1500</h2>
               <h3>FUNCIONÁRIOS</h3>
             </div>
-            <script src="./contador.js"></script>
         </div>
         
     </div>

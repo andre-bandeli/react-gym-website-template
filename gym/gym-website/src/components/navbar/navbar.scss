@@ -44,6 +44,7 @@
         .navlinks {
             height: 100%;
             width: 70%;
+            
 
             .nav {
                 height: 100%;
@@ -65,6 +66,82 @@
                 .nav-item:hover {
                     color: orangered;
                     transition: .2s;
+                }
+            }
+
+            .nav-responsiva {
+                width: 20%;
+                margin-top: -3vh;
+                visibility: hidden;
+                margin-left: 70%;
+
+                .drop {
+                    width: 1%;
+                    background-color: black;
+
+                    .menu {
+                        width: 1%;
+                        background-color: black;
+                        visibility: hidden;
+
+                        .item {
+                            visibility: hidden;
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width: 1024px) {
+    #navbar {
+
+        .container {
+            
+            .navlinks {
+                background-color: transparent;
+                .nav {
+                    width: 1%;
+
+                    .nav-item {
+                        width: 0%;
+                        visibility: hidden;
+                    }
+                    .activate {
+                        visibility: hidden;
+                    }
+                }
+                .nav-responsiva {
+                    visibility: visible;
+                    background-color: transparent;
+
+                    .drop {
+                        height: auto;
+                        background-color: transparent;
+                        cursor: pointer;
+
+
+                        .dropdown-toggle {
+                            height: 5vh;
+                            margin-top: -2vh;
+                            border: 1px solid rgba(8, 175, 187, 0.479);
+                            background-color: transparent;
+                        }
+
+                        img {
+                            width: 40px;
+                            margin-top: 0vh;
+                            
+                        }
+
+                        .item {
+                            background-color: black;
+                            margin-top: 15vh;
+                        }
+                    }
                 }
             }
         }

@@ -1,5 +1,7 @@
 import React from 'react'
 import './navbar.scss'
+import Dropdown from 'react-bootstrap/Dropdown';
+import menuImg from "../assets/imagens/menu.png"
 
 export default function Navbar() {
   return (
@@ -30,6 +32,20 @@ export default function Navbar() {
                             <h2>CONTATO</h2>
                         </li>
                     </ul>
+
+                        <ul className='nav-responsiva'>
+                            <Dropdown className='drop'>
+                                <Dropdown.Toggle variant="success" id="dropdown-basic">
+                                    <img src={menuImg} alt="" />
+                                </Dropdown.Toggle>
+
+                                <Dropdown.Menu>
+                                        <Dropdown.Item className='item' href="#/action-1">Action</Dropdown.Item>
+                                        <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
+                                        <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+                                </Dropdown.Menu>
+                            </Dropdown>
+                        </ul>
                 </div>
             </div>
         </div>
