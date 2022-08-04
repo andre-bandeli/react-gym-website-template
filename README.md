@@ -31,7 +31,25 @@ Não é necessário ativar a virtual env para iniciar com react:
                 - rode os comandos de migração: python manage.py migrate e python manage.py makemigrations
                 - inicie o servidor local: python manage.py runserver
 
+### Google Maps API:
 
+Pacote google maps api react (npm): 
+
+                npm i @react-google-maps/api
+                
+Pacote google maps api react (yarn):
+                
+                yarn add @react-google-maps/api
+               
+Console Google developers
+                
+                https://console.cloud.google.com/apis?_ga=2.238099392.1795437150.1659617001-977223609.1659617001&_gac=1.258016120.1659617001.CjwKCAjw3K2XBhAzEiwAmmgrAkwmn5cjp86Jxh80l4b5PeaUHmaz4HTTbw9C_cljPR6grD1Zkodx0BoC2a0QAvD_BwE
+
+Crie as credenciais:
+        
+                > Credenciais
+                > + create credentials
+                > chave de api
 
 
 ### Ferramentas utilizadas
