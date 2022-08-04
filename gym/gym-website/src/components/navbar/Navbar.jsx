@@ -23,7 +23,7 @@ export default function Navbar() {
                             <h2>ATIVIDADES</h2>
                         </li>
                         <li className='nav-item'>
-                            <h2>PLANOS</h2>
+                           <h2>PLANOS</h2>
                         </li>
                         <li className='nav-item'>
                             <h2>SOBRE NÓS</h2>

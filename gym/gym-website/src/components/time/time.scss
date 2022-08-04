@@ -116,17 +116,17 @@
     
             .box {
                 margin-top: 50vh;
-                margin-left: 2vh;
+                margin-left: 0vh;
                 img {
-                    margin-left: 0vh;
+                    margin-left: -5vh;
                     width: 80px;
                 }
                 h2 {
-                    margin-left: 0vh;
+                    margin-left: 3vh;
                     font-size: 2vw;
                 }
                 h3 {
-                    margin-left: 0vh;
+                    margin-left: 2vh;
                     font-size: 1.5vw;
                 }
             }
@@ -159,10 +159,12 @@
                     width: 70px;
                 }
                 h2 {
-                    margin-left: 0vh;
+                    width: auto;
+                    margin-left: 8vh;
                 }
                 h3 {
-                    margin-left: 0vh;
+                    width: auto;
+                    margin-left: 8vh;
                 }
             }
     

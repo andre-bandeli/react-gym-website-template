@@ -1,8 +1,10 @@
 import React from 'react'
-import { useState } from 'react';
 import './contato.scss'
 import { GoogleMap, LoadScript } from '@react-google-maps/api';
 
+import facebook from "../assets/imagens/facebook.png"
+import instagram from "../assets/imagens/instagram.png"
+import linkedin from "../assets/imagens/linkedin.png"
 
 
 const containerStyle = {
@@ -20,13 +22,21 @@ export default function Contato() {
   return (
     <div id='contato'>
           <div className="container">
-              <h2>ENTRE EM CONTATO</h2>
-              <h4>Entre em contato através das nossas redes sociais, ou se preferir, nos envie um e-mail</h4>
-              <div className="forms">
-              <br />
-                  <br />
-               
-              </div>
+          <h2>ENTRE EM CONTATO</h2>
+              <h4>Entre em contato através das nossas redes sociais</h4>
+            <div className="box-contato">
+                <div className="col-3-red">
+                  <img src={facebook} alt="" />
+                </div>
+                <div className="col-3-red">
+                  <img src={instagram} alt="" />
+                </div>
+                <div className="col-3-red">
+                  <img src={linkedin} alt="" />
+                </div>
+            </div>
+      
+            
           </div>
           <div className="container">
                   <LoadScript

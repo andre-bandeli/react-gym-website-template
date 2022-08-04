@@ -4,6 +4,7 @@ import Atividades from './components/atividades/Atividades';
 import Treinos from './components/atividades/Treinos';
 import BotaoDown from './components/botao-down/BotaoDown';
 import Contato from './components/contato/Contato';
+import Copyright from './components/copyright/Copyright';
 import Folder from './components/folder/Folder';
 import Footer from './components/footer/Footer';
 import Icones from './components/icones/Icones';
@@ -30,6 +31,7 @@ function App() {
       <Contato/>
       <Testimunials/>
       <Footer/>
+      <Copyright/>
     </div>
   );
 }
