@@ -6,6 +6,9 @@
 ![Badge](https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white)
 ![Badge](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 
+### Project status
+
+[![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://shields.io/)
 
 
 ### Descrição e Motivações
@@ -89,7 +92,3 @@ Direta e indiretamente, esta aplicação conta com conhecimentos adquiridos em d
 - [Filipe Deschamps] GOOGLE API TUTORIAL: Custom Search e Google Images (JSON API): https://www.youtube.com/watch?v=LzPuCVhdUew
 - [CodingEntrepreneurs] React & Django TUTORIAL Integration // REACTify Django: https://www.youtube.com/watch?v=AHhQRHE8IR8&t=1994s
 
-
-### Project status
-
-[![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://shields.io/)
