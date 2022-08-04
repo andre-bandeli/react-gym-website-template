@@ -82,6 +82,13 @@ Em caso de dúvidas, erros ou sugestões, sinta-se a vontade para abrir uma nova
 
 ### Authors and acknowledgment
 
+Direta e indiretamente, esta aplicação conta com conhecimentos adquiridos em diversos meios, sobretudo:
+
+- [Fabio Bergmann] Google Maps API e JavaScript no React JS: https://www.youtube.com/watch?v=yc8L7llaYKo&t=806s
+- [Google Maps Plataform] Como carregar a API Maps JavaScript no React: https://www.youtube.com/watch?v=9e-5QHpadi0
+- [Filipe Deschamps] GOOGLE API TUTORIAL: Custom Search e Google Images (JSON API): https://www.youtube.com/watch?v=LzPuCVhdUew
+- [CodingEntrepreneurs] React & Django TUTORIAL Integration // REACTify Django: https://www.youtube.com/watch?v=AHhQRHE8IR8&t=1994s
+
 
 ### Project status
 
