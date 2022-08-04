@@ -1,4 +1,4 @@
-## React Web Page | Página para Academia | + Django
+## React Web Page | Template para Academia |
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white)
@@ -6,8 +6,54 @@
 ![Badge](https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white)
 ![Badge](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 
+### Project status
 
-Desenvolvimento de um website para acadêmia utilizando react js, python/django, javascrip, html e css/scss. Consumo de api (google maps) e deploy no heroku.
+[![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://shields.io/)
+
+
+### Descrição e Motivações
+
+Desenvolvimento de uma landing page, utilizando react js, scss, html5, google maps api, react router dom e integração com django. As motivações do projeto visam o estudo das stacks mencionadas, assim como a integração do django com o react e consumo de api no google development console para utilização do google maps. 
+
+
+### Instalação:
+
+Para rodar o projeto, siga os seguintes passos: 
+
+        Para rodar localmente o projeto com o Django: 
+                - ative sua virtual env
+                - pip install -r requirements.txt
+                - rode os comandos de migração: python manage.py migrate e python manage.py makemigrations
+                - inicie o servidor local: python manage.py runserver
+                
+Não é necessário ativar a virtual env para iniciar com react:
+                
+        Para rodar localmente a aplicação react:
+                - ative sua virtual env
+                - pip install -r requirements.txt
+                - rode os comandos de migração: python manage.py migrate e python manage.py makemigrations
+                - inicie o servidor local: python manage.py runserver
+
+### Google Maps API:
+
+Pacote google maps api react (npm): 
+
+                npm i @react-google-maps/api
+                
+Pacote google maps api react (yarn):
+                
+                yarn add @react-google-maps/api
+               
+Console Google developers
+                
+                https://console.cloud.google.com/apis?_ga=2.238099392.1795437150.1659617001-977223609.1659617001&_gac=1.258016120.1659617001.CjwKCAjw3K2XBhAzEiwAmmgrAkwmn5cjp86Jxh80l4b5PeaUHmaz4HTTbw9C_cljPR6grD1Zkodx0BoC2a0QAvD_BwE
+
+Crie as credenciais:
+        
+                > Credenciais
+                > + create credentials
+                > chave de api
+
 
 ### Ferramentas utilizadas
 
@@ -18,59 +64,31 @@ Desenvolvimento de um website para acadêmia utilizando react js, python/django,
 - css
 - html5
 
-### Para rodar o projeto:
-obs: instale as dependências necessárias!
 
-- ative sua virtual env
-- pip install -r requirements.txt
-- rode os comandos de migração: python manage.py migrate e python manage.py makemigrations
-- inicie o servidor local: python manage.py runserver
+### Usage
 
-### Features
+- Menu mobile
+- Testes 
+- Pipeline CI/CD
+- Docker
 
-- Frontend React.JS
-- Implementação do Django
-- Lead email
-- deploy com Heroku
+### Suporte
+
+Em caso de dúvidas, erros ou sugestões, sinta-se a vontade para abrir uma nova issue ou, se preferir, me contate através de alguma das seguintes redes:
+
+- andre.lbandeli@gmail.com
+- linkedin: https://www.linkedin.com/in/andrébandeli/
 
 
-### Readme React
+### Roadmap
 
-        # Getting Started with Create React App
 
-        This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Authors and acknowledgment
 
-        ## Available Scripts
+Direta e indiretamente, esta aplicação conta com conhecimentos adquiridos em diversos meios, sobretudo:
 
-        In the project directory, you can run:
+- [Fabio Bergmann] Google Maps API e JavaScript no React JS: https://www.youtube.com/watch?v=yc8L7llaYKo&t=806s
+- [Google Maps Plataform] Como carregar a API Maps JavaScript no React: https://www.youtube.com/watch?v=9e-5QHpadi0
+- [Filipe Deschamps] GOOGLE API TUTORIAL: Custom Search e Google Images (JSON API): https://www.youtube.com/watch?v=LzPuCVhdUew
+- [CodingEntrepreneurs] React & Django TUTORIAL Integration // REACTify Django: https://www.youtube.com/watch?v=AHhQRHE8IR8&t=1994s
 
-                ### `npm start`
-
-        Runs the app in the development mode.\
-        Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-        The page will reload when you make changes.\
-        You may also see any lint errors in the console.
-
-                ### `npm test`
-
-        Launches the test runner in the interactive watch mode.\
-        See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-                ### `npm run build`
-
-        Builds the app for production to the `build` folder.\
-        It correctly bundles React in production mode and optimizes the build for the best performance.
-
-        The build is minified and the filenames include the hashes.\
-        Your app is ready to be deployed!
-
-        See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-                ### `npm run eject`
-
-        **Note: this is a one-way operation. Once you `eject`, you can't go back!**
-   
-        Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-    
