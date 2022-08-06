@@ -1,0 +1,153 @@
+
+#planos {
+    width: 100%;
+    height: 90vh;
+    display: inline-block;
+    background-position: center;
+
+    .container {
+        background-color: white;
+        width: 100%;
+        height: 70%;
+        margin: auto;
+        display: flex;
+
+        .box {
+            width: 25%;
+            height: 90%;
+            background-color: rgba(15, 15, 15, 0.911);
+            margin: auto;
+            margin-top: -10vh;
+
+            .text {
+                width: 100%;
+                height: 10vh;
+                background-color: rgba(0, 125, 228, 0.5);
+                position: relative;
+
+                h2 {
+                    font-size: 1.7vw;
+                    padding-top: 5%;
+                    color: white;
+                }
+            }
+            .subtext {
+                width: 80%;
+                height: 10vh;
+                margin: auto;
+                border-bottom: 1px solid rgba(0, 125, 228, 0.877);
+                display: flex;
+
+                h3 {
+                    margin-top: 5vh;
+                    position: absolute;
+                    color: white;
+                    font-weight: bold;
+                    font-size: 1.5vw;
+                }
+                h4 {
+                    margin-top: 6vh;
+                    margin-left: 13vh;
+                    position: absolute;
+                    color: white;
+                    font-size: 1.1vw;
+                }
+
+                .txt-decoration-price {
+                    color: rgba(0, 125, 228, 0.877);
+                    position: absolute;
+                    margin-top: -1vh;
+                    margin-left: 1vh;
+                    font-size: 2.8vw;
+                }
+            }
+        }
+
+    }
+    #ct {
+        background-color: yellow;
+        background-image: url(./bg.jpg);
+    }
+}
+
+@media (max-width: 768px) {
+    #planos {
+      
+        .container {
+    
+            .box {
+                width: 32%;
+            .text {
+
+                h2 {
+                  font-size: 3vw;
+                  padding-top: 4vh;
+                }
+            }
+            .subtext {
+
+
+                h3 {
+                  font-size: 2vw;
+                }
+                h4 {
+                    margin-left: 8.5vh;
+                    font-size: 1.5vw;
+                }
+
+                .txt-decoration-price {
+                    font-size: 4.5vw;
+                   
+                }
+            }
+            }
+        }
+    }
+}
+
+@media (max-width: 550px) {
+    #planos {
+        width: 100%;
+        height: auto;
+        display: inline-block;
+        background-position: center;
+    
+        .container {
+            height: auto;
+            margin: auto;
+            display: inline-block;
+
+            .box {
+                width: 80%;
+                height: 50vh;
+                margin-bottom: 15vh;
+
+
+            .text {
+
+                h2 {
+                    font-size: 4.7vw;
+                    padding-top: 10%;
+                    color: white;
+                }
+            }
+            .subtext {
+
+
+                h3 {
+                    font-size: 4.5vw;
+                }
+                h4 {
+                    font-size: 5.1vw;
+                    margin-left: 10vh;
+                }
+
+                .txt-decoration-price {
+
+                    font-size: 9vw;
+                }
+            }
+            }
+        }
+    }
+}

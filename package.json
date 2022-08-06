@@ -1,7 +1,6 @@
 {
-  "homepage": "https://react-gym-website-template/",
+  "homepage": "https://andre-bandeli.github.io/react-gym-website-template/",
   "name": "gym-website",
-  "homepage": "https://example.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -48,6 +47,7 @@
     "@babel/preset-env": "^7.18.9",
     "@babel/preset-react": "^7.18.6",
     "babel-loader": "^8.2.5",
+    "gh-pages": "^4.0.0",
     "html-loader": "^4.1.0",
     "html-webpack-plugin": "^5.5.0",
     "webpack": "^5.73.0",
