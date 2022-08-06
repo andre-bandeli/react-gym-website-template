@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/react-gym-website-template/static/css/main.31336059.css",
+    "main.js": "/react-gym-website-template/static/js/main.cf153f9a.js",
+    "static/media/bg.jpg": "/react-gym-website-template/static/media/bg.b485b03e559821d0e70f.jpg",
+    "static/media/bg-2.jpg": "/react-gym-website-template/static/media/bg-2.76cea73bafa696289827.jpg",
+    "static/media/bg-4.jpg": "/react-gym-website-template/static/media/bg-4.f21fa006395304bd02ba.jpg",
+    "static/media/crossfit.jpg": "/react-gym-website-template/static/media/crossfit.4c00a5ffbe895f27e7de.jpg",
+    "static/media/instagram.png": "/react-gym-website-template/static/media/instagram.e719d8b29f452a16302d.png",
+    "static/media/localizacao.png": "/react-gym-website-template/static/media/localizacao.e90893d54caa069682cb.png",
+    "static/media/atleta.webp": "/react-gym-website-template/static/media/atleta.a339212ddca1d6b7bede.webp",
+    "static/media/atleta.jpg": "/react-gym-website-template/static/media/atleta.71c63bff52c0b9ef22b8.jpg",
+    "static/media/gympass.png": "/react-gym-website-template/static/media/gympass.95c13af73adfb69220e5.png",
+    "static/media/map.png": "/react-gym-website-template/static/media/map.82056140ce3605dfbf34.png",
+    "static/media/perto.png": "/react-gym-website-template/static/media/perto.8018b5cbccca9eb6f9c2.png",
+    "static/media/github.png": "/react-gym-website-template/static/media/github.4f6177d64be34cc0acdf.png",
+    "static/media/dollar.png": "/react-gym-website-template/static/media/dollar.5a421789477ddf1c212c.png",
+    "static/media/in.png": "/react-gym-website-template/static/media/in.31f395e84ed95a1843c1.png",
+    "static/media/grupo.png": "/react-gym-website-template/static/media/grupo.e5cb3c5eb890b0f37932.png",
+    "static/media/images.jpeg": "/react-gym-website-template/static/media/images.8ac9223f42dc529b12f5.jpeg",
+    "static/media/avaliacao.png": "/react-gym-website-template/static/media/avaliacao.aeccae6bc1697eae6a79.png",
+    "static/media/linkedin.png": "/react-gym-website-template/static/media/linkedin.f249b38224ca41a0b909.png",
+    "index.html": "/react-gym-website-template/index.html",
+    "main.31336059.css.map": "/react-gym-website-template/static/css/main.31336059.css.map",
+    "main.cf153f9a.js.map": "/react-gym-website-template/static/js/main.cf153f9a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31336059.css",
+    "static/js/main.cf153f9a.js"
+  ]
+}
