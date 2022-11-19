@@ -13,6 +13,8 @@ export default function Treinos() {
             <img src={atleta} alt="" />
             <div className="container-dark">
               <h3>Treino Funcional </h3>
+              <h4>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                 industry's standard dummy text ever since the 1500s</h4>
             </div>
 
           </div>
@@ -20,12 +22,16 @@ export default function Treinos() {
             <img src={atleta_2} alt="" />
             <div className="container-dark">
               <h3>Pilates </h3>
+              <h4>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                 industry's standard dummy text ever since the 1500s</h4>
             </div>
           </div>
           <div className="col-4">
               <img src={crossfit} alt="" />
               <div className="container-dark">
               <h3>Aerobicos</h3>
+              <h4>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                 industry's standard dummy text ever since the 1500s</h4>
             </div>
           </div>
         </div>

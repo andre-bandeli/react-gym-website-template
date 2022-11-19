@@ -3,7 +3,8 @@
 #icones {
     width: 100%;
     height: auto;
-    background-color: rgba(29, 28, 28, 0.658);
+    background-color: rgba(29, 28, 28, 0.39);
+    backdrop-filter: blur(5px);
     display: flex;
     margin-top: -20vh;
 
@@ -136,8 +137,10 @@
 @media (max-width: 550px) {
     #icones {
         flex-wrap: wrap;
+        margin-top: 5vh;
 
         .box {
+            margin-top: 0vh;
             width: 40%;
             h3 {
                 margin-top: 2vh;

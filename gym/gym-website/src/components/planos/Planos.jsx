@@ -21,6 +21,9 @@ export default function Planos() {
               <div className="subtext">
                   <h3>R$ <span className='txt-decoration-price'>30</span></h3> <h4>Plano universitário</h4>
               </div>
+              <button>
+                assinar plano
+              </button>
           </div>
           <div className="box">
           <div className="text">
@@ -35,6 +38,9 @@ export default function Planos() {
               <div className="subtext">
                   <h3>R$ <span className='txt-decoration-price'>30</span></h3> <h4>Plano universitário</h4>
               </div>
+              <button>
+                assinar plano
+              </button>
           </div>
           <div className="box">
           <div className="text">
@@ -49,6 +55,9 @@ export default function Planos() {
               <div className="subtext">
                   <h3>R$ <span className='txt-decoration-price'>30</span></h3> <h4>Plano universitário</h4>
               </div>
+              <button>
+                assinar plano
+              </button>
           </div>
          
         </div>

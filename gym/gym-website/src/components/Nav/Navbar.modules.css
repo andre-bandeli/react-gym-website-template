@@ -1,0 +1,202 @@
+
+
+
+.Navbar {
+    width: 100%;
+    height: 10vh;
+    background-color: rgba(31, 29, 29, 0.671);
+    box-shadow: 0px 10px 25px rgba(121, 85, 71, 0.25);
+    background: #141414b4;
+    position: fixed;
+    z-index: 99999999;
+    backdrop-filter: blur(5px);
+}
+
+
+.Navbar nav ul  {
+    width: 90%;
+    margin: auto ;
+    margin-top: 10px;
+    border-right: 1px solid rgba(0, 0, 0, 0.527);
+}
+.Navbar nav ul li {
+    display: inline-block;
+    margin: 1.5vw;
+    margin-left: 15vh;
+    list-style: none;
+    
+}
+
+.Navbar nav ul li a {
+    text-decoration: none;
+    color: rgb(211, 203, 203);
+}
+
+.Navbar a:hover {
+    border-bottom: 3px solid rgba(6, 163, 211, 0.822);
+}
+
+.Navbar .MobileNavigation {
+    display: none;
+    width: 0%;
+    left: 600px;
+    height: 30px;
+    top: 0;
+}
+
+.btn-agendar {
+    display: flex;
+    width: 10%;
+    height: 90%;
+    right: 250px;
+    position: absolute;
+}
+.btn {
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    background-color: rgb(30, 111, 216);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    margin-top: 1.5vh;
+
+}
+
+
+
+
+@media (max-width: 1440px) {
+    .Navbar {
+        height: 10vh;
+    }
+    .Navbar nav {
+        width: 100%;
+    }
+    .Navbar nav ul{
+        width: 100%;
+        margin: auto;
+        margin-top: 10px;    
+        border: none; 
+    }
+    .Navbar nav ul li {
+       width: 20%;
+       margin: auto;
+       margin-top: 25px;
+        
+    }
+}
+@media (max-width: 1024px) {
+
+    .Navbar .Navigation img {
+        left: 50px;
+        margin-left: 0vh;
+    }
+    .btn-agendar {
+        display: none;
+    }
+    .Navbar nav ul{
+        width: 50%;
+        margin-left: 350px;
+        top: 0;
+    }
+}
+
+@media (max-width: 990px) {
+
+    .Navbar .Navgation {
+        display: none;
+        visibility: hidden;
+    }
+    .Navbar nav ul{
+        border: none;
+    }
+    .Navbar .Navgation ul li a{
+        visibility: hidden;
+    }
+    .Navbar nav li {
+        visibility: hidden;
+    }
+    .Navbar .MobileNavigation {
+        display: flex;
+        height: 80vh;
+        align-items: center;
+    }
+    .Navbar .MobileNavigation .Hamburguer {
+
+        position: absolute;
+        right: 30px;
+        top: 30px;
+        cursor: pointer;
+    }
+    .Navbar .NavLinks nav ul {
+        height: 10vh;
+    }
+    .Navbar .mob {
+        height: 90vh;
+        width: 100%;
+        top: 9vh;
+        position: fixed;
+        display: inline-block;
+        text-align: left;
+        border-radius: 5px;
+        background-color: rgba(33, 35, 36, 0.699);
+        backdrop-filter: blur(10px);
+    }
+    .Navbar .mob li{
+        margin: auto;
+        width: 100%;
+        margin-top: 10%;
+        margin-left: 0vh;
+        font-size: 22px;
+        visibility: visible;
+    }
+}
+@media (max-width: 912px) and (max-height: 1368px ) { 
+
+
+
+}
+@media (max-width: 768px) {
+    .Navbar {
+        height: 10vh;
+    }
+    .Navbar nav ul{
+        margin-left: 300px;
+        margin-top: 0;
+    }
+    .Navbar .MobileNavigation .Hamburguer {
+
+        top: 20px;
+    }
+    .Navbar .Navigation img {
+        margin-top: -15px;
+    }
+    .Navbar .mob {
+        top: 10vh;
+    }
+
+}
+@media (max-width: 550px) {
+    .Navbar {
+        height: 10vh;
+    }
+    .Navbar nav ul{
+        margin-left: 0;
+    }
+    .Navbar .Navigation img {
+        width: 130px;
+        margin-top: -.5vh;
+    }
+
+}
+@media (max-width: 390px) {
+
+    .Navbar nav ul{
+        margin-left: 0;
+    }
+    .Navbar .Navigation img {
+        width: 130px;
+    }
+}

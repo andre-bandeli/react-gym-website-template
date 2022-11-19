@@ -22,8 +22,10 @@ export default function Contato() {
   return (
     <div id='contato'>
           <div className="container">
-          <h2>ENTRE EM CONTATO</h2>
-              <h4>Entre em contato através das nossas redes sociais</h4>
+          <h2>Onde fica nossa sede</h2>
+              <h4>Avenida 9 de Julho, 1145. Condominio Vera Júlia, 13º andar. São Paulo</h4>
+              <h4>Telefone: (11) 3556-2547 | Contratar Planos: (11) 3556-2222</h4>
+              <h4>Cartão Postal: 44580-011</h4>
             <div className="box-contato">
                 <div className="col-3-red">
                   <img src={facebook} alt="" />
@@ -39,18 +41,23 @@ export default function Contato() {
             
           </div>
           <div className="container">
-                  <LoadScript
+            
+              <div className="map">
+                <LoadScript
                       googleMapsApiKey="AIzaSyA6TfwAfLGJnca23UDIzJQ2iM4MaZe5SFg"
-                    >
-              <GoogleMap
-                      mapContainerStyle={containerStyle}
-                      center={center}
-                      zoom={10}
-              >
-                { /* Child components, such as markers, info windows, etc. */ }
-                <></>
-              </GoogleMap>
-            </LoadScript>
+                >
+                <GoogleMap
+                        mapContainerStyle={containerStyle}
+                        center={center}
+                        zoom={10}
+                >
+                  { /* Child components, such as markers, info windows, etc. */ }
+                  <></>
+                </GoogleMap>
+                </LoadScript>
+              </div>
+              
+           
           </div>
     </div>
   )

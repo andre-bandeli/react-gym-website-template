@@ -2,36 +2,112 @@
 
 #time {
     width: 100%;
-    height: 90vh;
-    background-color: white;
+    height: 100vh;
     display: flex;
-    margin-top: 20vh;
+    margin-top: 10vh;
 
 
     .container {
-        width: 40%;
-        height: 100%;
-        display: flex;
+        width: 50%;
+        height: 50%;
+        display: inline-block;
 
+        .forms {
+            width: 80%;
+            height: auto;
+            margin: auto; margin-top: 3vh;
+
+            .standard-basic {
+                width: 100%;
+                margin-top: 15px;
+                border: 1px solid rgba(230, 81, 31, 0.61);
+                background-color: rgba(16, 15, 15, 0.859);
+                border-radius: 5px;
+                label {
+                    color: wheat;
+
+                }
+                .css-1sumxir-MuiFormLabel-root-MuiInputLabel-root {
+                    width: 0px;
+                    border: none;
+                    height: 100%;
+                }
+                input {
+                    color: var(--secundary-font-color-yellow);
+                    border: none;
+                }
+                
+            }
+            .standard-basic-box {
+                width: 100%;
+                height: 10vh;
+                margin-top: 15px;
+                border: 1px solid rgba(230, 81, 31, 0.61);
+                background-color: rgba(16, 15, 15, 0.859);
+                border-radius: 5px;
+                margin-right: 35px;
+                label {
+                    color: wheat;
+                    height: 100%;
+                }
+                .css-1sumxir-MuiFormLabel-root-MuiInputLabel-root {
+                    width: 0px;
+                    height: 100%;
+                }
+                .MuiFormLabel-root {
+                    border: none;
+                }
+                input {
+                    color: white;
+                    color: var(--secundary-font-color-yellow);
+                    height: auto;
+                    border: none;
+                }
+            }
+
+            .btn {
+                width: 50%;
+                margin-left: -7vh;
+                margin-top: 20px;
+                margin-bottom: 50px;
+                background-color: transparent;
+                border: 1px solid rgba(230, 81, 31, 0.61);
+                visibility: visible;
+            }
+            .btn:hover {
+                background-color: rgba(30, 23, 24, 0.779);
+                color: orangered;
+            }
+        }
 
         h2 {
             margin-top: 25vh; margin-left: 10vh;
-            width: 70%;
-            font-size: 2.5vw;
+            width: 90%;
+            font-size: 3vw;
             text-align: left;
+            color: white;
         }
         h3 {
-            margin-top: 45vh; margin-left: 10vh;
+            margin-top: 5vh; margin-left: 10vh;
             width: 35%;
             font-size: 20px;
-            line-height: 5vh;
-            font-weight: 300;
+            line-height: 3.5vh;
+            font-weight: 200;
             position: absolute;
             text-align: left;
+            color: whitesmoke;
+        }
+        h4 {
+            margin-top: 27vh;
+            font-size: 25px;
+            color: white;
+            text-align: left;
+            margin-left: 10vh;
+            font-weight: 200;
         }
 
         .txt-decoration {
-            color: rgb(11, 142, 194);
+            color: rgb(230, 80, 31);
             font-weight: bolder;
         }
 
@@ -140,6 +216,11 @@
 
         .container {
             width: 90%;
+            height: auto;
+
+            .forms {
+                margin-top: 0vh;
+            }
 
             h2 {
                 font-size: 4vw;
@@ -170,50 +251,4 @@
     
         }
     }
-}
-@media (max-width: 550px) {
-    #time {
-        display: inline-block;
-        margin-top: 5vh;
-        .container {
-            width: 100%;
-            height:  50vh;
-            margin-left: 0vh;
-            display: flex;
-            h2 {
-                margin-top: 1vh; margin-left: 5vh;
-                width: 100%;
-                font-size: 7vw;
-                text-align: left;
-            }
-            h3 {
-                margin-top: 15vh; margin-left: 5vh;
-                width: 90%;
-                font-size: 4vw;
-            }
-    
-            .box {
-                width: 90%;
-                height: 40%;
-                margin: auto;
-                margin-top: 5vh;
-    
-    
-                img {
-                    margin-left: 0vh;
-                    width: 70px;
-                }
-                h2 {
-                    margin-left: 2vh;
-                    font-size: 4vw;
-                }
-                h3 {
-                    margin-left: 2vh;
-                    font-size: 3.5vw;
-                }
-            }
-    
-        }
-    }
-   
 }
