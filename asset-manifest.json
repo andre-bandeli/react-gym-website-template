@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-gym-website-template/static/css/main.fc6f630d.css",
-    "main.js": "/react-gym-website-template/static/js/main.f7949be1.js",
+    "main.css": "/react-gym-website-template/static/css/main.f35383e0.css",
+    "main.js": "/react-gym-website-template/static/js/main.20c584d1.js",
     "static/media/bg.jpg": "/react-gym-website-template/static/media/bg.b485b03e559821d0e70f.jpg",
     "static/media/bg-4.jpg": "/react-gym-website-template/static/media/bg-4.f21fa006395304bd02ba.jpg",
     "static/media/crossfit.jpg": "/react-gym-website-template/static/media/crossfit.4c00a5ffbe895f27e7de.jpg",
@@ -12,7 +12,6 @@
     "static/media/atleta.webp": "/react-gym-website-template/static/media/atleta.a339212ddca1d6b7bede.webp",
     "static/media/logo.svg": "/react-gym-website-template/static/media/logo.c5c7664a15cf9fe798075ea72b6848ae.svg",
     "static/media/atleta.jpg": "/react-gym-website-template/static/media/atleta.71c63bff52c0b9ef22b8.jpg",
-    "static/media/gympass.png": "/react-gym-website-template/static/media/gympass.95c13af73adfb69220e5.png",
     "static/media/clock.png": "/react-gym-website-template/static/media/clock.e36bcf5c9311e977e1a6.png",
     "static/media/perto.png": "/react-gym-website-template/static/media/perto.8018b5cbccca9eb6f9c2.png",
     "static/media/github.png": "/react-gym-website-template/static/media/github.4f6177d64be34cc0acdf.png",
@@ -26,11 +25,11 @@
     "static/media/3.webp": "/react-gym-website-template/static/media/3.4b06172337987e354de5.webp",
     "static/media/1.webp": "/react-gym-website-template/static/media/1.6113feca9bc52dafa3d6.webp",
     "index.html": "/react-gym-website-template/index.html",
-    "main.fc6f630d.css.map": "/react-gym-website-template/static/css/main.fc6f630d.css.map",
-    "main.f7949be1.js.map": "/react-gym-website-template/static/js/main.f7949be1.js.map"
+    "main.f35383e0.css.map": "/react-gym-website-template/static/css/main.f35383e0.css.map",
+    "main.20c584d1.js.map": "/react-gym-website-template/static/js/main.20c584d1.js.map"
   },
   "entrypoints": [
-    "static/css/main.fc6f630d.css",
-    "static/js/main.f7949be1.js"
+    "static/css/main.f35383e0.css",
+    "static/js/main.20c584d1.js"
   ]
 }
