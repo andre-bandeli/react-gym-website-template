@@ -39,8 +39,9 @@
 }
 
 
-@media (max-width: 550px) {
+@media (max-width: 768px) {
     #footer {
+        margin-top: 10vh;
         height: 70vh;
         .container {
             height: 50vh;

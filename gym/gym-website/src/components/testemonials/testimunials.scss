@@ -124,6 +124,59 @@
 
 }
 
+@media (max-width: 1440px) {
+
+    #testimunials {
+        height: 100vh;
+        .container {
+
+            .box {
+                height: 60vh;
+
+                button {
+                    margin-top: 4vh;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 1024px) {
+
+    #testimunials {
+        height: 100vh;
+        .container {
+            width: 90%;
+
+            .box {
+                height: 65vh;
+
+                button {
+                    margin-top: 8vh;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 768px) {
+
+    #testimunials {
+        height: auto;
+        .container {
+            width: 90%;
+            display: flex;
+            flex-wrap: wrap;
+
+            .box {
+                width: 35%;
+                height: 65vh;
+
+                button {
+                    margin-top: 8vh;
+                }
+            }
+        }
+    }
+}
 @media (max-width: 550px) {
 
     #testimunials {
@@ -145,6 +198,7 @@
                 width: 80%;
                 margin-top: 10vh;
                 margin-bottom: 3vh;
+
             }
         }
     }

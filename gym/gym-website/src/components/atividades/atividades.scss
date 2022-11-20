@@ -58,24 +58,48 @@
         }
 
     }
+}
 
-    @media (max-width: 550px) {
+@media (max-width: 1024px) {
+    #atividades {
+        
+        .container {
+          
+            .col-4 {
+    
+    
+                .container-dark { 
+                  height: auto;
+                  margin-top: -20vh;
+                    h3 {
+                      
+                    }
+                    h4 {
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (max-width: 550px) {
+    #atividades {
         height: auto;
         .container {
             margin-top: 5vh;
             display: inline-block;
             width: 100%;
-
+    
             .col-4 {
-
+    
                 width: 100%;
                 padding: 5px;
                 margin-top: 10px;
-
+    
                 .container-dark { 
                     width: 100%;
                     height: 15vh;
-
+    
                     h3 {
                         font-size: 20px;
                     }

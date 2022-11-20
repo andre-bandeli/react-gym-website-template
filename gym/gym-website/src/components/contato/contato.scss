@@ -85,10 +85,15 @@
 @media (max-width: 550px) {
     #contato {
         display: inline-block;
+        height: 80vh;
 
         .container {
             width: 100%;
-            height: 50%;
+            height: auto;
+
+            .map {
+                background-color: yellow;
+            }
         }
     }
 }

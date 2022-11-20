@@ -13,7 +13,7 @@ export default function Copyright() {
                     <img src={linkedin} alt="" />
             </div>
             <div className="col-10">
-                <h4>© 2022 Copyright: André Bandeli</h4>
+                <h4>© 2022 Copyright: SmartGym</h4>
             </div>
         </div>
 

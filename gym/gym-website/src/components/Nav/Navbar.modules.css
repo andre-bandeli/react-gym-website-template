@@ -141,14 +141,14 @@
         display: inline-block;
         text-align: left;
         border-radius: 5px;
-        background-color: rgba(33, 35, 36, 0.699);
+        background-color: rgba(33, 35, 36, 0.911);
         backdrop-filter: blur(10px);
     }
     .Navbar .mob li{
         margin: auto;
         width: 100%;
-        margin-top: 10%;
-        margin-left: 0vh;
+        margin-top: 15%;
+        margin-left: 5vh;
         font-size: 22px;
         visibility: visible;
     }
