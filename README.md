@@ -13,6 +13,10 @@ Desenvolvimento de uma landing page utilizando react js, scss, html5, google map
 
 [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://shields.io/)
 
+<kbd>Deploy no heroku não disponível/Mudança na política do uso gratuito de banco de dados </kbd>
+
+GithubPages: https://andre-bandeli.github.io/react-gym-website-template/
+
 ## Começando
 
 Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste.
@@ -116,5 +120,13 @@ Crie as credenciais:
 * [SCSS](https://sass-lang.com/) - Folha de estilo
 
 ---
+
+![gym-01](https://user-images.githubusercontent.com/87938869/206889422-bbf15bac-b550-49da-b091-253a28e314f4.jpg)
+![gym-02](https://user-images.githubusercontent.com/87938869/206889424-aa356eae-d73a-4fb2-ace4-ba44ab924d1e.jpg)
+![gym-03](https://user-images.githubusercontent.com/87938869/206889432-e0faa88d-2a6d-4d15-b162-a0c462660107.jpg)
+![gym-04](https://user-images.githubusercontent.com/87938869/206889435-4c8b0d34-6456-42b1-bba9-1d0bf4067a83.jpg)
+
+
+
 
 
