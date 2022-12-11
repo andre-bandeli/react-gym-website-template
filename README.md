@@ -1,4 +1,6 @@
-## React Web Page | Template para Academia |
+
+## React Web Page | Template para Academia | Integração api Django
+
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white)
@@ -6,33 +8,84 @@
 ![Badge](https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white)
 ![Badge](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 
-### Project status
+
+Desenvolvimento de uma landing page utilizando react js, scss, html5, google maps api, react router dom e integração com django.
 
 [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://shields.io/)
 
+## Começando
 
-### Descrição e Motivações
+Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste.
+Os comandos a seguir são realizados em ambiente linux ubuntu 20 (consulte os comandos referentes ao seu sistema operacional).
 
-Desenvolvimento de uma landing page, utilizando react js, scss, html5, google maps api, react router dom e integração com django. As motivações do projeto visam o estudo das stacks mencionadas, assim como a integração do django com o react e consumo de api no google development console para utilização do google maps. 
+### 📋 Pré-requisitos
 
+De que coisas você precisa para instalar o software e como instalá-lo?
 
-### Instalação:
+```
+Nodejs
+```
+```
+Python (aqui estou utilizando versão >3)
+```
 
-Para rodar o projeto, siga os seguintes passos: 
+### 🔧 Instalação
 
-        Para rodar localmente o projeto com o Django: 
-                - ative sua virtual env
-                - pip install -r requirements.txt
-                - rode os comandos de migração: python manage.py migrate e python manage.py makemigrations
-                - inicie o servidor local: python manage.py runserver
-                
-Não é necessário ativar a virtual env para iniciar com react:
-                
-        Para rodar localmente a aplicação react:
-                - ative sua virtual env
-                - pip install -r requirements.txt
-                - rode os comandos de migração: python manage.py migrate e python manage.py makemigrations
-                - inicie o servidor local: python manage.py runserver
+Uma série de exemplos passo-a-passo que informam o que você deve executar para ter um ambiente de desenvolvimento em execução.
+
+#### Client (frontend)
+Clone o repositório para sua máquina local:
+```
+ git clone https://github.com/andre-bandeli/react-gym-website-template.git
+```
+Caminhe até a pasta :
+```
+ cd gym/gym-website
+```
+Execute o comando a seguir para instalar as dependências necessárias da aplicação:
+```
+ npm install
+```
+Execute o server da aplicação (porta default: 3000)
+```
+ npm start
+```
+
+#### Server (backend)
+
+Caso não tenha uma venv, siga os passos a seguir:
+```
+python3 -m venv env
+```
+```
+    cd env
+```
+    source bin/activate
+```
+    cd .. 
+```
+Entre no dirtório raiz do projeto (backend) e instale as dependências
+```
+    cd gym 
+```
+```
+    pip install -r requirements.txt
+```
+Crie um novo usuário:
+```
+    python3 manage.py createsuperuser
+```
+Rode os comandos de migração:
+```
+    python3 manage.py migrate
+```
+```
+    python3 manage.py makemigrations
+```
+Rode o servidor:
+```
+    python3 manage.py runserver
+```
 
 ### Google Maps API:
 
@@ -55,40 +108,13 @@ Crie as credenciais:
                 > chave de api
 
 
-### Ferramentas utilizadas
+## 🛠️ Construído com
 
-- Django
-- React JS
-- Python
-- JavaScript
-- css
-- html5
+* [Python3](https://www.python.org/) - Linguagem backend
+* [Django](https://www.djangoproject.com/) - Framework Web Python
+* [React JS](https://pt-br.reactjs.org/) - Biblioteca JavaScript
+* [SCSS](https://sass-lang.com/) - Folha de estilo
 
+---
 
-### Usage
-
-- Menu mobile
-- Testes 
-- Pipeline CI/CD
-- Docker
-
-### Suporte
-
-Em caso de dúvidas, erros ou sugestões, sinta-se a vontade para abrir uma nova issue ou, se preferir, me contate através de alguma das seguintes redes:
-
-- andre.lbandeli@gmail.com
-- linkedin: https://www.linkedin.com/in/andrébandeli/
-
-
-### Roadmap
-
-
-### Authors and acknowledgment
-
-Direta e indiretamente, esta aplicação conta com conhecimentos adquiridos em diversos meios, sobretudo:
-
-- [Fabio Bergmann] Google Maps API e JavaScript no React JS: https://www.youtube.com/watch?v=yc8L7llaYKo&t=806s
-- [Google Maps Plataform] Como carregar a API Maps JavaScript no React: https://www.youtube.com/watch?v=9e-5QHpadi0
-- [Filipe Deschamps] GOOGLE API TUTORIAL: Custom Search e Google Images (JSON API): https://www.youtube.com/watch?v=LzPuCVhdUew
-- [CodingEntrepreneurs] React & Django TUTORIAL Integration // REACTify Django: https://www.youtube.com/watch?v=AHhQRHE8IR8&t=1994s
 
